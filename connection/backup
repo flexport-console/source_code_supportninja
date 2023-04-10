@@ -1,0 +1,3 @@
+To create new table audit_trail
+
+CREATE TABLE `flexport_new`.`audit_trail` (`au_id` INT(255) NOT NULL AUTO_INCREMENT , `user_employee_id` VARCHAR(55) NOT NULL , `au_desc` VARCHAR(255) NOT NULL , `au_time` VARCHAR(55) NOT NULL , `au_date` VARCHAR(55) NOT NULL , `au_page` VARCHAR(105) NOT NULL , `au_ip` VARCHAR(55) NOT NULL , `au_category` VARCHAR(55) NOT NULL , PRIMARY KEY (`au_id`)) ENGINE = InnoDB;
